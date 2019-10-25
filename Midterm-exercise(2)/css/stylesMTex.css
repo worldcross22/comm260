@@ -1,0 +1,68 @@
+h1 {
+    background-image: url(blog-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    margin: 0 auto;	
+}
+
+h2 {
+    color: #696469;
+    font-size: 2.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post {
+    float: left;
+    width: 640px;
+    padding: 0px 30px;
+}
+
+.post a, .post a:visited {
+	text-decoration: none;
+}
+.post a:hover, .post a:focus, .post a:active {
+	text-decoration: underline;
+}
+
+.lake {
+    width: 600px;
+    height: 360px;
+    padding: 0px 20px;
+}
+
+.lake img {
+    width: 100%;
+    height: auto;
+}
+
+#sidebar {
+    width: 40%;
+    float: right;
+    background-color: #e7dee7;
+    color: #37a1bb;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+
+p {
+    text-indent: 25px;
+}
+
+#lal {
+    margin-right: 280px;
+}
+
+.article-thumbs {
+    padding: 30px 30px 0px 30px;
+}
+
+.article-thumbs img {
+    margin: 0px 20px 0px 20px;
+}
+
+h5 {
+    text-align: center;
+    color: #857f85;
+    font-style: italic;
+}
