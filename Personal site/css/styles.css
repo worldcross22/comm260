@@ -1,17 +1,38 @@
-
-
-blockquote {
-    font-size: 1.3em;
-    text-decoration: wavy
+h1 {
+    padding: 0px 0px 30px 0px;
 }
-
+body {
+    background-image: url(../img/white-waves/white-waves/white-waves.png);
+    padding: 0px 30px;
+}
 .header-color {
     color: #006699
 }
-footer {
-    text-align: center;
+.header-color2 {
+    color: #008839
 }
-
+h2 {
+    padding: 0px 265px 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+article p {
+	text-align: justify;
+	text-indent: 25px;
+	padding: 10px;
+	width: 60%;
+}
+.hass-image {
+    float: left;
+    position: relative;
+}
+.hero-image {
+    float: right;
+    position: relative;
+}
+.tri-image {
+    float: left;
+    position: relative;
+}
 #club-nav	{
 	font-size: 1.0em;	
 }
@@ -24,11 +45,10 @@ footer {
 #club-nav a:active {
 	text-decoration: underline;
 }
-
-.hero-image {
-	float:right;	
-}
-
 .club{
-	clear: both;
+    clear: both;
+    padding: 30px 0px 30px 0px;
+}
+footer {
+    text-align: center;
 }
