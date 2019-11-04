@@ -1,8 +1,18 @@
-h1 {
-    padding: 0px 0px 30px 0px;
+header {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #f8bed6;
+    background-size: cover;
+    position: fixed;
+    z-index: 2;
+    text-align: center;
 }
+
 body {
     background-image: url(../img/white-waves/white-waves/white-waves.png);
+}
+section {
     padding: 0px 30px;
 }
 .header-color {
@@ -11,8 +21,11 @@ body {
 .header-color2 {
     color: #008839
 }
+#top {
+    padding: 90px 0px 0px 0px;
+}
 h2 {
-    padding: 0px 265px 0px 0px;
+    padding: 0px 265px 0px 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article p {
@@ -47,7 +60,7 @@ article p {
 }
 .club{
     clear: both;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 30px 30px 30px;
 }
 footer {
     text-align: center;
