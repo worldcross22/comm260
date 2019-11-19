@@ -12,6 +12,15 @@ header {
 body {
     background-image: url(../img/white-waves/white-waves/white-waves.png);
 }
+nav ul {
+	list-style-type: none;
+	margin: 0px; 
+}
+nav ul a,
+nav ul a:visited {
+	text-decoration: none;
+	color: #333;
+}
 section {
     padding: 0px 30px;
 }
@@ -21,8 +30,41 @@ section {
 .header-color2 {
     color: #008839
 }
+#navigation {
+	font-size: 1.3em;	
+	line-height: 1.4em;
+}
+.container {
+	margin: 0px auto;
+	clear: both;
+}
+#main {
+	margin: 0px;
+	padding: 0px 25px;
+	width: 60%;
+	float: left;
+	margin-bottom: 30px;
+}
+#main-nav ul li a {
+	width: 20%;
+	padding: 5px;
+	display: block;
+	float: left;
+	text-align: center;
+	background: #36f;
+	color: #efefef;
+	border: 1px solid #fff;
+}
+#main-nav a:hover, 
+#main-nav a:focus, 
+#main-nav a:active {
+	background: #fff;
+	color: #36f;
+	border: 1px solid #36f;
+}
+
 #top {
-    padding: 90px 0px 0px 0px;
+    padding: 190px 0px 0px 0px;
 }
 h2 {
     padding: 0px 265px 0px 40px;
@@ -63,5 +105,10 @@ article p {
     padding: 30px 30px 30px 30px;
 }
 footer {
+    clear: both;
+	padding:20px 0px;
     text-align: center;
+}
+th {
+    background-color: #f8bed6;
 }
